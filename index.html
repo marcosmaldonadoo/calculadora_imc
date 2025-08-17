@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Indices IMC</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <div id="titulo">
+      <h1>Calculadora IMC</h1>
+      <h3>Oque é o IMC?</h3>
+      <p>
+        O IMC (Índice de Massa Corporal) é uma medida usada para avaliar se o
+        peso de uma pessoa está adequado em relação à sua altura. Ele é
+        calculado dividindo o peso em quilogramas pela altura em metros elevada
+        ao quadrado (peso ÷ altura²). O resultado indica se a pessoa está abaixo
+        do peso, com peso normal, sobrepeso ou obesidade, servindo como um
+        parâmetro simples de saúde.
+      </p>
+    </div>
+    <div id="tabela">
+      <table border="1" cellpadding="8" cellspacing="0">
+        <thead>
+          <tr>
+            <th>IMC</th>
+            <th>Classificação</th>
+            <th>Obesidade (grau)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Menor que 18,5</td>
+            <td>Magreza</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td>Entre 18,5 e 24,9</td>
+            <td>Normal</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td>Entre 25,0 e 29,9</td>
+            <td>Sobrepeso</td>
+            <td>I</td>
+          </tr>
+          <tr>
+            <td>Entre 30,0 e 39,9</td>
+            <td>Obesidade</td>
+            <td>II</td>
+          </tr>
+          <tr>
+            <td>Maior que 40,0</td>
+            <td>Obesidade Grave</td>
+            <td>III</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div id="formulario">
+        <input type="text" id="peso" placeholder="Digite seu peso (kg)" />
+        <input type="text" id="altura" placeholder="Digite sua altura (m)" />
+        <button id="calcular">Calcular IMC</button>
+    </div>
+    <div id="resultado">resultado</div>
+  </body>
+</html>
